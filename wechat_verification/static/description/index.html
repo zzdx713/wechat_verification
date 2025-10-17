@@ -1,0 +1,46 @@
+<section class="oe_container">
+	<div class="oe_row oe_spaced">
+		<h2 class="oe_slogan">企业微信域名验证模块</h2>
+		<h3 class="oe_slogan mb-0">专为Odoo18设计的企业微信域名验证解决方案</h3>
+		<p class="text-justify" style="max-width: 84%; margin: 16px 8%; font-size: 16px;">
+			该应用旨在解决企业微信域名验证需求，已在Odoo18环境中验证通过，帮助企业快速完成域名配置流程。
+		</p>
+		
+		<div class="text-justify" style="max-width: 84%; margin: 16px 8%;">
+			<h4 style="color: #333; margin-bottom: 12px;">使用步骤：</h4>
+			<ol style="padding-left: 20px; line-height: 1.6;">
+				<li>下载企业微信提供的验证TXT文件，将其放置在模块的static目录下；</li>
+				<li>修改controllers\mail.py文件，将示例文件名"WW_verify_bKh5CGfbqD7k5qGy.txt"替换为您实际下载的TXT文件名；</li>
+				<li>将整个模块目录复制到Odoo的addons目录中，登录Odoo后台安装"企业微信验证应用"；</li>
+				<li>通过URL "http://ip:端口/[您的TXT文件名]" 访问，验证文件是否可正常访问。</li>
+			</ol>
+		</div>
+		
+		<div class="text-justify" style="max-width: 84%; margin: 16px 8%;">
+			<h4 style="color: #333; margin-bottom: 12px;">IP转域名推荐工具：</h4>
+			<p>
+				推荐使用nginx-proxy-manager，该工具可便捷实现IP访问转域名访问，并提供免费SSL证书，满足企业微信域名验证的HTTPS要求。
+			</p>
+		</div>
+
+		<h4 class="oe_slogan mt-4" style="font-size: 23px">github.com/zzdx713/wechat_verification</h4>
+		<div class="mb-4" style="text-align: center;">
+			<span class="btn btn-sm mb-2" style="font-size:14px; font-weight:500; background-color:#044e78; color:#fff; cursor:default;">
+				<i class="fa fa-check"></i> Community
+			</span>
+			<span class="btn btn-sm mb-2" style="font-size:14px; font-weight:500; background-color:#852da3; color:#fff; cursor:default;">
+				<i class="fa fa-check me-1"></i> Enterprise
+			</span>
+		</div>
+	</div>
+</section>
+
+
+<section class="oe_container oe_dark d-flex justify-content-around align-items-lg-center flex-column flex-lg-row">
+	
+	<div class="oe_slogan d-flex flex-column ms-1 me-1 ms-lg-4 me-lg-4 flex-grow-1">
+		<a class="btn btn-primary btn-lg m-3" href="mailto:zzdx713@gmail.com" style="font-size: 1.2rem; position: relative; overflow: hidden;">
+			<i class="fa fa-envelope me-1"></i>Contact me
+		</a>
+	</div>
+</section>
