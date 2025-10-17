@@ -15,5 +15,8 @@
     'auto_install': True,
     # 标记为应用，避免状态异常
     'application': False,
-    'summary': '企业微信可信域名验证文件服务'
+    'summary': '企业微信可信域名验证文件服务',
+    'images': [
+        'static/description/icon.png',
+    ]
 }
