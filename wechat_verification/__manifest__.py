@@ -1,6 +1,5 @@
 {
     'name': '企业微信验证模块',
-    'version': '1.0',
     'summary': """该应用是为了解决企业微信域名验证而开发在odoo18验证通过""",
     'description': """将该目录复制到addon目录登陆odoo安装企业微信验证应用，通过http://ip:端口/WW_verify_bKh5CGfbqD7k5qGy.txt""",
     'author': "zzdx713",
