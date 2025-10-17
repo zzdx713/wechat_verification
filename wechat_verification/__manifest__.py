@@ -6,7 +6,7 @@
     'website': "https://github.com/zzdx713",
     'category': 'Tools',
     # 关键：依赖web模块（Odoo 18控制器需依赖）
-    'version': '18.0',
+    'version': '18.0','19.0',
     "license": "AGPL-3",
     'depends': ['base', 'web'],
     'data': [],
